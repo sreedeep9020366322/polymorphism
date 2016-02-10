@@ -18,7 +18,9 @@ public class LoanApplication {
 		System.out.println("Enter gram salary : ");
 		customer1.setGram(sc.nextLong());
 		
-		customer1.calPersonalInterest(customer1.getCustomerSalary());
+		customer1.calcPersonalInterest();
+		customer1.calcJewelInterest();
+		//customer1.calPersonalInterest(customer1.getCustomerSalary());
 	}
 
 }

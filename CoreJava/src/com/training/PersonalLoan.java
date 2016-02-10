@@ -4,9 +4,9 @@ public class PersonalLoan extends Loan {
 
 	//private long interestRate;
 	//private long loanAmnt;
-	private long loanAmnt;
+	private double loanAmnt;
 	
-	public long interestCalculate(long sal){
+	public double interestCalculate(double sal){
 		
 		loanAmnt= 12 * sal;
 		

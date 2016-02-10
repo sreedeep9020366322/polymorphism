@@ -7,8 +7,8 @@ public class CustomerApplication {
 		Customer cust1 = new Customer();
 	
 		cust1.setCustomerId(101);
-		cust1.setCustomerName("Shariq");
-		cust1.setEmailId("shariqparwez@outlook.com");
+		cust1.setCustomerName("Sreedeep");
+		cust1.setEmailId("sreedeepkarun@gmail.com");
 		cust1.setHandPhone(808402113);
 		
 		//Customer cust2 = new Customer(102,"Shayma","shaymakhan@gmail.com",787654321);
